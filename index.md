@@ -25,7 +25,6 @@ Our analysis focuses on four social media platforms (**Twitter, Facebook, Instag
 
 | Dataset      | Source    |   Date Last Collected    | Status            | Result |
 |:-------------|:------------------|:------------------|:------------------|:-------|
-| MIT 209 URLs    |  Please contact us | March 21, 2020| Finished       | [link](./mit_url.html){:target="_blank"} |
 | CSMaP 150 URLs  |  Please contact us  | March 22, 2020| Finished       | [link](./csmap_150_url.html){:target="_blank"}  |
 | Coronavirus URLs|  Please contact us  | March 22, 2020| Finished       | [link](./coronavirus.html){:target="_blank"}   |
 | Coronavirus more samples |  N/A | N/A           | TODO           | N/A   |
