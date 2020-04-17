@@ -26,9 +26,12 @@ Our analysis focuses on four social media platforms (**Twitter, Facebook, Instag
 | Dataset      | Source    |   Date Last Collected    | Status            | Result |
 |:-------------|:------------------|:------------------|:------------------|:-------|
 | CSMaP 150 URLs  |  Please contact us  | March 22, 2020| Finished       | [link](./csmap_150_url.html){:target="_blank"}  |
-| Coronavirus 3/22-3/29|Please contact us | April 12, 2020| Finished     |[link](./tracker_200329.html){:target="_blank"}   |
-| Coronavirus 3/30-4/5 |Please contact us | April 12, 2020| Finished     |[link](./tracker_200405.html){:target="_blank"}   |
-| Coronavirus 4/6-4/12 |Please contact us | April 12, 2020| Finished     |[link](./tracker_200412.html){:target="_blank"}   |
+| Coronavirus 3/22-3/29|Please contact us | April 14, 2020| Finished     |[link](./tracker_200329.html){:target="_blank"}   |
+| Coronavirus 3/30-4/5 |Please contact us | April 14, 2020| Finished     |[link](./tracker_200405.html){:target="_blank"}   |
+| Coronavirus 4/6-4/12 |Please contact us | April 14, 2020| Finished     |[link](./tracker_200412.html){:target="_blank"}   |
+
+### Meta-trend analysis
+[200329, 200425, 200412](./cross_platform_trend_analysis.html){:target="_blank"}
 
 <!-- [link](./source/mit_collection.csv) -->
 <!-- [link](./source/csmap_150.csv) -->
