@@ -31,6 +31,8 @@ Our analysis focuses on four social media platforms (**Twitter, Facebook, Instag
 | Coronavirus 3/30-4/5 |Please contact us | April 14, 2020| Finished     |[link](./tracker_200405.html){:target="_blank"}   |
 | Coronavirus 4/6-4/12 |Please contact us | April 14, 2020| Finished     |[link](./tracker_200412.html){:target="_blank"}   |
 | Coronavirus 4/13-4/19 |Please contact us | April 28, 2020| Finished     |[link](./tracker_200419.html){:target="_blank"}   |
+| Coronavirus 4/20-4/26 |Please contact us | May 4, 2020| Finished |[link](./tracker_200426.html){:target="_blank"}   |
+| Coronavirus 5/6-5/12 |Please contact us | +96 hours per day | Finished     |[link](./200506_200512.html){:target="_blank"}   |
 
 ### Meta-trend analysis
 [200329, 200425, 200412](./cross_platform_trend_analysis.html){:target="_blank"}
