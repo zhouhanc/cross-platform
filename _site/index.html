@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>How does Misinformation Tracer work? | Misinformation Tracer</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="How does Misinformation Tracer work?" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A system for cross-platform analysis of the spread of misinformation" />
+<meta property="og:description" content="A system for cross-platform analysis of the spread of misinformation" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Misinformation Tracer" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","headline":"How does Misinformation Tracer work?","name":"Misinformation Tracer","description":"A system for cross-platform analysis of the spread of misinformation","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=b37be5d7705c8a7416343bb30bdee621558438e3">
+  </head>
+  <body>
+    
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Misinformation Tracer</h1>
+      <h2 class="project-tagline">A system for cross-platform analysis of the spread of misinformation</h2>
+      
+        <a href="https://github.com/zhouhanc/cross-platform" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      
+<h3 id="how-does-misinformation-tracer-work">How does Misinformation Tracer work?</h3>
+
+<p><strong>NOTE: We are currently working on collecting and analyzing COVID-19 related URLs.</strong></p>
+
+<p>Misinformation Tracer is a fully automated data collection and data processing pipeline. It takes a list of URLs as input, and automatically collects posts/tweets containing those URLs from four social media platforms. After the data collection, a python script loads the data, calculates summary statistics, and generates a Jupyter Notebook in HTML format, which is published on this website.</p>
+
+<p><img src="/architecture.png" alt="Branching" /></p>
+
+<h3 id="what-do-we-analyze">What do we analyze?</h3>
+
+<p>Our analysis focuses on four social media platforms (<strong>Twitter, Facebook, Instagram, Reddit</strong>). Currently the results include:</p>
+
+<ul>
+  <li>post volume (total, average per URL, per user)</li>
+  <li>user volume (total, average per URL)</li>
+  <li>timeline posting pattern</li>
+  <li>longivity of a URL</li>
+  <li>heavy user characterization (name, description)</li>
+</ul>
+
+<h3 id="current-data-collections">Current data collections</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Dataset</th>
+      <th style="text-align: left">Source</th>
+      <th style="text-align: left">Date Last Collected</th>
+      <th style="text-align: left">Status</th>
+      <th style="text-align: left">Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">CSMaP 150 URLs (aggregate by evaluation)</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">March 22, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/csmap_150_url.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CSMaP 150 URLs (aggregate by source)</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">March 22, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/csmap_150_url_source_only.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Coronavirus 3/22-3/29</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">April 14, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/tracker_200329.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Coronavirus 3/30-4/5</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">April 14, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/tracker_200405.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Coronavirus 4/6-4/12</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">April 14, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/tracker_200412.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Coronavirus 4/13-4/19</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">April 28, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/tracker_200419.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Coronavirus 4/20-4/26</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">May 4, 2020</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/tracker_200426.html" target="_blank">link</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Coronavirus 5/6-5/12</td>
+      <td style="text-align: left">Please contact us</td>
+      <td style="text-align: left">+96 hours per day</td>
+      <td style="text-align: left">Finished</td>
+      <td style="text-align: left"><a href="/200506_200512.html" target="_blank">link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="meta-trend-analysis">Meta-trend analysis</h3>
+<p><a href="/cross_platform_trend_analysis.html" target="_blank">200329, 200425, 200412</a></p>
+
+<!-- [link](./source/mit_collection.csv) -->
+<!-- [link](./source/csmap_150.csv) -->
+<!-- [link](./source/coronavirus.csv) -->
+
+<h3 id="what-type-of-data-are-we-able-to-collect">What type of data are we able to collect?</h3>
+
+<p>We caution that account status is highly dynamic. One account can become public, private, suspended, or deleted in a short amount of time. Therefore our collection is <em>best effort</em>, meaning we collect as much as we can at the moment we collect. There is no guarantee that rerunning the pipeline on the same dataset gives the same results. However, we don’t expect a significant difference given a large sample size.</p>
+
+<p>Here is a list of posts we collect from each platform:</p>
+
+<ol>
+  <li>Facebook: posts from public accounts.</li>
+  <li>Instagram: posts from public accounts.</li>
+  <li>Twitter: any searchable tweets from public accounts. We also collect all retweets of original tweets, and aggregate results.</li>
+  <li>Reddit: any searchable post that embeds the input URL.</li>
+  <li>Facebook interaction: aggregated counts from both public and private accounts.</li>
+</ol>
+
+<hr />
+
+<h3 id="contact">Contact</h3>
+
+<p>Site creator: Zhouhan Chen, NYU Center for Data Science, <a href="mailto:zc1245@nyu.edu">zc1245@nyu.edu</a></p>
+
+<p>Collaborator: Kevin Aslett, NYU Center for Social Media and Politics (CSMaP)</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/zhouhanc/cross-platform">cross-platform</a> is maintained by <a href="https://github.com/zhouhanc">zhouhanc</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
